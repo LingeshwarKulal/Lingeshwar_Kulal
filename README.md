@@ -1,15 +1,26 @@
 # Lingeshwar Kulal - Cybersecurity Portfolio
 
-A professional portfolio website built with React.js showcasing cybersecurity expertise, VAPT skills, and projects.
+Professional portfolio website showcasing my expertise as a Cybersecurity Analyst specializing in VAPT, Network Security, and OSINT reconnaissance.
+
+## About
+
+I am a Security Analyst with hands-on experience in Vulnerability Assessment and Penetration Testing (VAPT), network security, and OSINT reconnaissance. This portfolio showcases my skills, projects, and professional experience in cybersecurity.
+
+## Technologies Used
+
+- React.js 18
+- Vite
+- Modern CSS3
+- Responsive Design
 
 ## Features
 
-- 🎨 Modern, responsive design with cybersecurity theme
-- 🔒 Security-focused color scheme (Matrix green on dark)
-- 📱 Mobile-friendly and fully responsive
-- ⚡ Fast performance with Vite
-- 🎯 Smooth scrolling navigation
-- 💼 Complete sections: Hero, About, Skills, Projects, Experience, Education, Contact
+- 🔐 Modern cybersecurity-themed design
+- 🚀 Fast loading with animated loading screen
+- 📱 Fully responsive across all devices
+- 🎨 Clean and professional UI/UX
+- ⚡ Smooth animations and transitions
+- 📊 Interactive sections showcasing skills and projects
 
 ## Setup Instructions
 
@@ -36,98 +47,49 @@ The image should be:
 npm run dev
 ```
 
-The site will be available at `http://localhost:5173`
+## Sections
 
-### 4. Build for Production
+- **Hero**: Introduction with professional photo and call-to-action
+- **About**: Background and professional approach
+- **Skills**: Core competencies in Security & VAPT, Networking, AI-Assisted Development, Tools & OS
+- **Projects**: Featured projects including OSINT platforms and VAPT work
+- **Experience**: Professional experience at SYSAP Technologies
+- **Education**: Academic background and certifications
+- **Contact**: Professional contact information and social links
+
+## Live Demo
+
+Visit the live portfolio: [Coming Soon]
+
+## Setup for Development
+
+```bash
+# Clone the repository
+git clone https://github.com/LingeshwarKulal/Lingeshwar_Kulal.git
+
+# Navigate to project
+cd Lingeshwar_Kulal
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## Build for Production
 
 ```bash
 npm run build
 ```
 
-The production files will be in the `dist` folder.
+The optimized production files will be in the `dist` folder.
 
-## Project Structure
+## Connect
 
-```
-portfolio-website/
-├── src/
-│   ├── assets/
-│   │   └── profile.jpg          # Your profile photo goes here
-│   ├── components/
-│   │   ├── Header.jsx           # Navigation header
-│   │   ├── Hero.jsx             # Hero section with photo
-│   │   ├── About.jsx            # About section
-│   │   ├── Skills.jsx           # Core skills
-│   │   ├── Projects.jsx         # Featured projects
-│   │   ├── Experience.jsx       # Work experience
-│   │   ├── Education.jsx        # Education & certifications
-│   │   ├── Contact.jsx          # Contact information
-│   │   └── Footer.jsx           # Footer
-│   ├── App.jsx                  # Main app component
-│   ├── main.jsx                 # Entry point
-│   └── index.css                # Global styles
-├── index.html
-├── package.json
-└── vite.config.js
-```
-
-## Customization
-
-### Colors
-The color theme can be customized in `src/index.css`:
-- `--primary-color`: Matrix green (#00ff41)
-- `--secondary-color`: Dark navy (#0a0e27)
-- `--accent-color`: Accent navy (#1a1f3a)
-
-### Content
-All content is hardcoded in the component files. To update:
-- Personal info: Edit `src/components/Hero.jsx`
-- About text: Edit `src/components/About.jsx`
-- Skills: Edit `src/components/Skills.jsx`
-- Projects: Edit `src/components/Projects.jsx`
-- Experience: Edit `src/components/Experience.jsx`
-- Contact links: Edit `src/components/Contact.jsx`
-
-## Technologies Used
-
-- React 18.3
-- Vite 5.4
-- Modern CSS with CSS Variables
-- Responsive Grid & Flexbox layouts
-
-## Deployment
-
-### Deploy to GitHub Pages
-
-1. Install gh-pages:
-```bash
-npm install --save-dev gh-pages
-```
-
-2. Add to package.json:
-```json
-"homepage": "https://LingeshwarKulal.github.io/portfolio",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
-```
-
-3. Deploy:
-```bash
-npm run deploy
-```
-
-### Deploy to Netlify/Vercel
-
-Simply connect your GitHub repository and these platforms will auto-deploy from the main branch.
-
-## Contact
-
-**Lingeshwar Kulal**
-- Email: lingeshwarkulal106@gmail.com
-- LinkedIn: [linkedin.com/in/lingeshwarkulal2001](https://www.linkedin.com/in/lingeshwarkulal2001/)
-- GitHub: [github.com/LingeshwarKulal](https://github.com/LingeshwarKulal)
+- **Email**: lingeshwarkulal106@gmail.com
+- **LinkedIn**: [linkedin.com/in/lingeshwarkulal2001](https://www.linkedin.com/in/lingeshwarkulal2001/)
+- **GitHub**: [github.com/LingeshwarKulal](https://github.com/LingeshwarKulal)
 
 ## License
 
