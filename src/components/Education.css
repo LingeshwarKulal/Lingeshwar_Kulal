@@ -1,0 +1,94 @@
+.education {
+  padding: 100px 20px;
+  background: var(--dark-bg);
+}
+
+.education-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.education-section {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(6, 182, 212, 0.2);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.education-section:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 10px 30px rgba(6, 182, 212, 0.3);
+  transform: translateY(-5px);
+}
+
+.education-section h3 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.edu-item {
+  margin-bottom: 1.5rem;
+}
+
+.edu-item:last-child {
+  margin-bottom: 0;
+}
+
+.edu-item h4 {
+  color: var(--heading-color);
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.edu-item p {
+  color: var(--text-color);
+  font-size: 1.1rem;
+}
+
+.education-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.education-section li {
+  color: var(--text-color);
+  padding: 0.5rem 0;
+  padding-left: 25px;
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.education-section li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.career-objective {
+  background: var(--card-bg);
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--primary-color);
+  box-shadow: 0 10px 30px rgba(6, 182, 212, 0.3);
+}
+
+.career-objective h3 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.career-objective p {
+  color: var(--text-color);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: justify;
+}

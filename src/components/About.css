@@ -1,0 +1,23 @@
+.about {
+  padding: 100px 20px;
+  background: var(--dark-bg);
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-content p {
+  font-size: 1.15rem;
+  line-height: 2;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+  text-align: justify;
+  opacity: 0.95;
+  letter-spacing: 0.3px;
+}
+
+.about-content p:last-child {
+  margin-bottom: 0;
+}

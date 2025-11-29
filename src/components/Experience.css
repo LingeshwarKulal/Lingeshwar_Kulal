@@ -1,0 +1,58 @@
+.experience {
+  padding: 100px 20px;
+  background: var(--darker-bg);
+}
+
+.experience-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.job {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 4px solid var(--primary-color);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.job:hover {
+  transform: translateX(10px);
+  box-shadow: 0 10px 30px rgba(6, 182, 212, 0.3);
+}
+
+.job h3 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.job h4 {
+  color: var(--heading-color);
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.job ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.job li {
+  color: var(--text-color);
+  padding: 0.5rem 0;
+  padding-left: 25px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.job li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}

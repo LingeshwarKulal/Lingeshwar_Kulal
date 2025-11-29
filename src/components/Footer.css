@@ -1,0 +1,16 @@
+.footer {
+  background: var(--darker-bg);
+  padding: 2rem 0;
+  text-align: center;
+  border-top: 1px solid rgba(6, 182, 212, 0.2);
+}
+
+.footer p {
+  color: var(--text-color);
+  margin: 0.5rem 0;
+}
+
+.footer p:first-child {
+  color: var(--heading-color);
+  font-weight: 600;
+}
